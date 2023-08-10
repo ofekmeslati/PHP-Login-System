@@ -20,7 +20,7 @@
 
 		
 
-		$return['redirect'] = 'php_login_project/index.php?this-was-a-redirect';
+		$return['redirect'] = 'php_login_project/dashboard.php';
 		$return['name'] = "???????????????";
 
 		echo json_encode($return, JSON_PRETTY_PRINT); exit;
